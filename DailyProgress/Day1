@@ -9,4 +9,4 @@ As the running time should be O(log(n)), we should binary search to solve this q
    If it's smaller than target, move the left pointer point to the middle number.
    Otherwise, move the right pointer point to the middle number.
 
-3. Do step2 unitl we we find the result or left and right pointer point to the same number.
+3. Do step2 unitl we find the result or left and right pointer point to the same number.
