@@ -1,3 +1,4 @@
+#Binary Search # Two pointers
 
 704: https://leetcode.com/problems/binary-search/description/
 
@@ -10,3 +11,15 @@ As the running time should be O(log(n)), we should binary search to solve this q
    Otherwise, move the right pointer point to the middle number.
 
 3. Do step2 unitl we find the result or left and right pointer point to the same number.
+
+
+27: https://leetcode.com/problems/remove-element/description/
+
+Two pointers: point to most left number of nums
+1) p1: one slow, always point to the number not equal to val; 
+
+2) p2: one faster, iterate the list
+-when p2 point to a number not equal to val, then nums[p1] = this number
+-and p1 should move forward one step at the same circumstance
+
+3) return p1
