@@ -1,1 +1,12 @@
 
+704: https://leetcode.com/problems/binary-search/description/
+
+As the running time should be O(log(n)), we should binary search to solve this question.
+
+1. Set two pointer, left pointer point to the first number and right pointer point to the last number of the list.
+
+2. Compare the middle number of the two pointers. If it's equal to target, return the middle.
+   If it's smaller than target, move the left pointer point to the middle number.
+   Otherwise, move the right pointer point to the middle number.
+
+3. Do step2 unitl we we find the result or left and right pointer point to the same number.
